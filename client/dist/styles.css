@@ -1,11 +1,12 @@
 html {
-  background-image: url('./tacos.webp');
+  background-image: url('./mexican-food.jpg');
     position: center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    background-repeat: no-repeat;
+   max-width: 900px;
 }
 
 
@@ -36,4 +37,55 @@ html {
   position: relative;
   top: 216.5px;
   left: 725px;
+}
+
+#tabButtonHome {
+  color: white;
+}
+
+#AvatarVender {
+  color: white;
+}
+#appBar {
+  width: 900px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .SearchBar {
+    position: relative;
+    top: 270px;
+    left: 70px;
+  }
+  .SearchButton {
+    position: relative;
+    top: 270px;
+    left: 700px;
+  }
+  html {
+    background-image: url('./mexican-food.jpg');
+      position: center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     background-repeat: no-repeat;
+     max-width: 900px;
+     height: 100%;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .Menu {
+    position: relative;
+    top: 170px;
+    left: 885px;
+  }
+
 }
