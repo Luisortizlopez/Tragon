@@ -4,10 +4,12 @@ import UserName from './UserName.jsx';
 import Card from 'material-ui/Card';
 
 
+
 const style = {
     width: 160,
     height: 160,
 }
+
 
 
 
