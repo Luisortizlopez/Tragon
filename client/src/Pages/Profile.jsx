@@ -2,6 +2,7 @@ import React from 'react';
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
+
  class Profile extends React.Component {
 
   state = {
