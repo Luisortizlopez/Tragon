@@ -4,8 +4,6 @@ import AppBar from 'material-ui/AppBar';
 import Button from 'material-ui/Button';
 import Toolbar from 'material-ui/Toolbar';
 
-export default class HeaderBar extends Component {
-  render(){
 
 
     const unAuthBar =
@@ -21,7 +19,7 @@ export default class HeaderBar extends Component {
             <Link to="/user/:id"><Button id='AvatarVender' label="profile" color="white">Profile</Button></Link>
             <Link to="/vendor"><Button id='AvatarVender' label="profile" color="white">AddVendor</Button></Link>
             <Link to="/profile"><Button id='AvatarVender' label="profile" color="white">Profile</Button></Link>
-=
+
   const HeaderBar = (props) => (
       <AppBar id='appBar'>
           <Toolbar>
