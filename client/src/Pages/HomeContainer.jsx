@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import Select from 'react-select';
 
 
-
-
-
 export default class HomeContainer extends Component {
   state = {
     selectedOption: '',
