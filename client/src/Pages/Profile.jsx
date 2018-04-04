@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< 296b74dfbfb680ea4c54f7d8aec1f132ae0a750b
 <<<<<<< 611051f6ecbeb8332bde510fb085749bbf28edc8
 <<<<<<< e619b692fceb5b46c242dd4ef7959bc00957f8a7
 <<<<<<< 1d3a09abbcbbb7149757c4b62079173ab38ad02c
@@ -23,6 +24,11 @@ import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*Fixing mergin problems*/
 >>>>>>> /*Fixing mergin problems*/
+=======
+import ProfilePage from '../components/home/ProfileComp.jsx';
+
+
+>>>>>>> /*Merge Conflicts*/
 
 <<<<<<< 8fa4dd0c5d24fc40af6312ba08ba281f8e5e05ae
 
