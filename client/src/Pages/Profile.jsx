@@ -15,6 +15,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
       <ProfilePage />
       </div>
     );
+
   }
 }
 
