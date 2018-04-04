@@ -37,7 +37,7 @@ export default class HomeContainer extends Component {
       <div>
         <Switch>
           <Route exact path="/" render={(props) => <Home submitSearch={this.submitSearch} /> } />
-          <Route render={(props) => <Results {...props} vendors={this.state.vendors} /> } />
+          <Route path='/profile' components={Profile} />
         </Switch>
       </div>
     );
