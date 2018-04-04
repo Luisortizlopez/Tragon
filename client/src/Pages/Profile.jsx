@@ -1,7 +1,12 @@
 import React from 'react';
 import AvatarVender from '../components/profile/AvatarVender.jsx';
 
+<<<<<<< 78b5499c5ef91a5ffe368165e798111d339ed8e0
 export default class Profile extends Component {
+=======
+
+ class Profile extends React.Component {
+>>>>>>> profile page in process
   state = {
     person: []
   }
@@ -25,11 +30,17 @@ export default class Profile extends Component {
   render() {
     const {picture, name} = this.state.person
     return (
+<<<<<<< 78b5499c5ef91a5ffe368165e798111d339ed8e0
       <div>
         <ul>
           <AvatarVender name={name} picture={picture} />
         </ul>
       </div>
+=======
+      <ProfilePage />
+>>>>>>> profile page in process
     )
   }
 }
+
+export default Profile;

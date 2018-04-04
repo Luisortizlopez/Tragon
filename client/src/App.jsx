@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {firebaseAuth} from './components/auth/client.js'
-
 import HeaderBar from './components/home/HeaderBar.jsx';
 import Login from './components/auth/Login.jsx'
 import HomeContainer from './Pages/HomeContainer.jsx';
