@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Select from 'react-select';
+<<<<<<< bde9c6751f6e7524e5ca2b8db8de0d4e19054083
 import Results from './Results.jsx';
 import Home from './HomePage.jsx'
 <<<<<<< 625c91583b9b2ce919692702e9944ccfed85914e
@@ -28,6 +29,8 @@ import ProfilePage from '../components/profileComp/ProfileComp.jsx';
 >>>>>>> /*merge conflicts*/
 import Profile from './Profile.jsx';
 
+=======
+>>>>>>> profile page in process
 
 
 export default class HomeContainer extends Component {

@@ -158,6 +158,7 @@ export default class Profile extends React.Component {
   render() {
 
     return (
+<<<<<<< bde9c6751f6e7524e5ca2b8db8de0d4e19054083
 <<<<<<< add3bb20d499d3f2c3bab27578c67c0fab3772e4
 <<<<<<< c9db6f2c356fd12b1fa67580c32903392396f6aa
 <<<<<<< ae129cf9192ac6f4462a26be83622ed478b5160f
@@ -179,6 +180,8 @@ export default class Profile extends React.Component {
 <<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 >>>>>>> /*Merge Conflict*/
 <<<<<<< c0efbd1a2a669b0b2a880f732b7aba8494e19dbe
+=======
+>>>>>>> profile page in process
 <<<<<<< 59c5c71839f5999e5bd11da5620270d82e2030b8
 <<<<<<< c238647732a37bab123421f420669429889eded9
 >>>>>>> /*merge conflicts*/
@@ -192,6 +195,7 @@ export default class Profile extends React.Component {
 =======
       <ProfilePage />
 >>>>>>> profile page in process
+<<<<<<< bde9c6751f6e7524e5ca2b8db8de0d4e19054083
 =======
 <<<<<<< 45813a3762ab6d90c8e655e366d707d206c983a4
 <<<<<<< c238647732a37bab123421f420669429889eded9
@@ -253,6 +257,8 @@ export default class Profile extends React.Component {
 >>>>>>> profile page in process
 =======
 >>>>>>> /*merge conflicts*/
+=======
+>>>>>>> profile page in process
     )
   }
 }
