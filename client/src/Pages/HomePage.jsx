@@ -10,6 +10,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 >>>>>>> added card background to profile info
 
 
+
 const Home = (props) => (
   <div>
     <SearchBar submitSearch={props.submitSearch} />
