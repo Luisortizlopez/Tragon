@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import Select from 'react-select';
 import {Switch, Route, withRouter} from 'react-router-dom';
 import Results from './Results.jsx';
-import Home from './HomePage.jsx'
+import Home from './HomePage.jsx';
 import Profile from './Profile.jsx';
+
 
 
 
