@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< 7e281aa3ea79abae418b074be4d68683df18fe2d
 <<<<<<< f3cab65c076d2cdc652d53ebdc8dfdc39e77ed2b
 <<<<<<< 4bb1ad7dee53da19a7b8869bb03b6a22692b7173
 <<<<<<< cf267eaa41b2ba81cd8a31a3c7da2ab518fec551
@@ -46,11 +47,14 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
 =======
 <<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
+=======
+>>>>>>> /*Merge Conflicts*/
 import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
 import AvatarVender from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*merge coflict*/
 
+<<<<<<< 7e281aa3ea79abae418b074be4d68683df18fe2d
 <<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 =======
 <<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
@@ -113,6 +117,9 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
 >>>>>>> /*Merge Conflict*/
 >>>>>>> /*Merge Conflict*/
+=======
+
+>>>>>>> /*Merge Conflicts*/
 
 <<<<<<< 12d1535c179335454132306bda69e5051fd7bec0
 =======
