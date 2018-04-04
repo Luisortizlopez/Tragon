@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import Select from 'react-select';
 import Results from './Results.jsx';
-import Home from './HomePage.jsx';
-import Profile from './Profile.jsx';
+import Home from './HomePage.jsx'
 
 export default class HomeContainer extends Component {
   state = {
@@ -33,14 +32,9 @@ export default class HomeContainer extends Component {
   render() {
     return (
       <div>
-        {this.state.vendors ? (
-          <Results vendors={this.state.vendors} />
-        ) : (
-          <Home submitSearch={this.submitSearch} />
-        )}
         <Switch>
           <Route exact path="/" render={(props) => <Home submitSearch={this.submitSearch} /> } />
-          <Route path='/profile' components={Profile} />
+          <Route render={(props) => <Results {...props} vendors={this.state.vendors} /> } />
         </Switch>
       </div>
     );
