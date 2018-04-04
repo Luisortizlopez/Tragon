@@ -3,31 +3,7 @@ import Select from 'react-select';
 import {Switch, Route, withRouter} from 'react-router-dom';
 import Results from './Results.jsx';
 import Home from './HomePage.jsx'
-<<<<<<< 625c91583b9b2ce919692702e9944ccfed85914e
-=======
-=======
-import Home from './HomePage.jsx';
-<<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
-<<<<<<< a2d1ac580904371a3dd6230f8e566711c0a02a71
-=======
-import ProfilePage from '../components/profileComp/ProfileComp.jsx';
->>>>>>> /*merge conflicts*/
-=======
->>>>>>> /*Fixing mergin problems*/
-import Profile from './Profile.jsx';
->>>>>>> /*Fixing mergin problems*/
-=======
-import Results from './Results.jsx';
-import Home from './HomePage.jsx';
-<<<<<<< 087efd0299330de328b743680af824dcb3c4f6cb
->>>>>>> profile page in process
-=======
-<<<<<<< c238647732a37bab123421f420669429889eded9
-=======
-import ProfilePage from '../components/profileComp/ProfileComp.jsx';
->>>>>>> /*merge conflicts*/
->>>>>>> /*merge conflicts*/
-import Profile from './Profile.jsx';
+
 
 
 
