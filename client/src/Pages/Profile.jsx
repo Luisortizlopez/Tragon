@@ -85,6 +85,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
 >>>>>>> /*Fixing mergin problems*/
 
+<<<<<<< 81bbb77eb76347ac0346ef9207302cdad79d5a6b
 =======
 import ProfilePage from '../components/home/ProfileComp.jsx';
 >>>>>>> /*Fixing mergin problems*/
@@ -124,6 +125,9 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 >>>>>>> /*Merge Conflicts*/
 =======
 <<<<<<< a3ea3014f488b55c765da36b6dfb21e1fa0a81e7
+=======
+<<<<<<< 02e8ad6ebbf390c9f74d635677614ed96a5cff4d
+>>>>>>> working on profile
 <<<<<<< 8fa4dd0c5d24fc40af6312ba08ba281f8e5e05ae
 >>>>>>> profile page in process
 =======
@@ -150,9 +154,13 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
  class Profile extends React.Component {
 >>>>>>> profile page in process
 =======
+<<<<<<< 81bbb77eb76347ac0346ef9207302cdad79d5a6b
 export default class Profile extends React.Component {
 >>>>>>> /*merge conflicts*/
 =======
+=======
+>>>>>>> working on profile
+>>>>>>> working on profile
  class Profile extends React.Component {
 >>>>>>> profile page in process
   state = {
