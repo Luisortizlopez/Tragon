@@ -1,6 +1,11 @@
 import React from 'react';
+<<<<<<< 84b6d1eadaa4520ebe85a517e1282c75b9773843
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+=======
+import MyGoogleMap from '../components/Map/MapConfig.jsx';
+import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
+>>>>>>> /*Fixing mergin problems*/
 
  class Profile extends React.Component {
   state = {
