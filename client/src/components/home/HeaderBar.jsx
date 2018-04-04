@@ -6,22 +6,6 @@ import Toolbar from 'material-ui/Toolbar';
 
 
 
-    const unAuthBar =
-      <Toolbar>
-        <Link to="/"><Button id='tabButtonHome' color="inherit">Home</Button></Link>
-        <Link to="login"><div className='Log'><Button id='Log-in' label="log-in" color="inherit">Login</Button></div></Link>
-      </Toolbar>
-
-    return (
-      <AppBar id='appBar'>
-          <Toolbar>
-            <Link to="/"><Button id='tabButtonHome' color="white">Home</Button></Link>
-            <Link to="/user/:id"><Button id='AvatarVender' label="profile" color="white">Profile</Button></Link>
-            <Link to="/vendor"><Button id='AvatarVender' label="profile" color="white">AddVendor</Button></Link>
-            <Link to="/profile"><Button id='AvatarVender' label="profile" color="white">Profile</Button></Link>
-
-
-
   const HeaderBar = (props) => (
       <AppBar id='appBar'>
           <Toolbar>
