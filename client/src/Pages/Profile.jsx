@@ -1,5 +1,5 @@
 import React from 'react';
-import AvatarVender from '../components/profile/AvatarVender.jsx';
+import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
  class Profile extends React.Component {
