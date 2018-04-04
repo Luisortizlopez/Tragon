@@ -9,9 +9,6 @@ import Profile from './Profile.jsx';
 >>>>>>> working in HomeContainer
 
 
-
-
-
 export default class HomeContainer extends Component {
   state = {
     vendors: null
