@@ -11,6 +11,7 @@ import Profile from './Profile.jsx';
 
 
 
+
 export default class HomeContainer extends Component {
   state = {
     vendors: null
@@ -45,6 +46,10 @@ export default class HomeContainer extends Component {
         ) : (
           <Home submitSearch={this.submitSearch} />
         )}
+        <Switch>
+          <Route exact path="/" render={(props) => <Home submitSearch={this.submitSearch} /> } />
+          <Route path='/profile' components={Profile} />
+        </Switch>
       </div>
     );
   }
