@@ -72,6 +72,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
   render() {
     const {picture, name} = this.state.person
     return (
+<<<<<<< 2e602b1f99a2852441ac7119ab37bed3f45a86cb
 <<<<<<< df7fee16d3f7d7c4701d144e839899d9485584c8
 <<<<<<< ace5c5133462076b90bf6882580db64fa2081275
 <<<<<<< 32c0952e5720f7dbf3d90626d54c5a98a0fc00cc
@@ -96,6 +97,10 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
       <ProfilePage />
 >>>>>>> /*merge conflicts*/
 =======
+=======
+<<<<<<< 357737fb2932834b6ade47a9804a6ca65605ee62
+<<<<<<< d885ffb06506d98a21bb556d9c647f0f587c204f
+>>>>>>> fixed merge conflict
       <div>
       <ProfilePage />
       </div>
@@ -104,10 +109,15 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
       <ProfilePage />
 >>>>>>> profile page in process
 =======
+<<<<<<< 2e602b1f99a2852441ac7119ab37bed3f45a86cb
       <div>
       <ProfilePage />
       </div>
 >>>>>>> /*merge conflicts*/
+=======
+      <ProfilePage />
+>>>>>>> fixed merge conflict
+>>>>>>> fixed merge conflict
     )
   }
 }
