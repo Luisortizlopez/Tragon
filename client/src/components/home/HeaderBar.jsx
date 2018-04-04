@@ -4,7 +4,6 @@ import AppBar from 'material-ui/AppBar';
 import Button from 'material-ui/Button';
 import Toolbar from 'material-ui/Toolbar';
 
-<<<<<<< 340f19094d70e2bb370856c7e7711dada70159b5
 
   const HeaderBar = () => (
       <AppBar id='appBar'>
@@ -19,6 +18,7 @@ import Toolbar from 'material-ui/Toolbar';
             <Link to="/vendor"><Button id='AvatarVender' label="profile" color="white">AddVendor</Button></Link>
 =======
             <Link to="/profile"><Button id='AvatarVender' label="profile" color="white">Profile</Button></Link>
+<<<<<<< 05f9b8a4e79154a86afecf7f7e65bb536db79f8b
 <<<<<<< 256c10199f1e3f6c2eb102f12e3cbd74ed62b58d
 <<<<<<< 0629aaadd7b3bf44da456a30b1a355624c33a116
 <<<<<<< 20e4ce324db9a7d5a344c0f397e00187fbf677f5
@@ -26,6 +26,9 @@ import Toolbar from 'material-ui/Toolbar';
 =======
 =======
 >>>>>>> /*merge conflicts*/
+=======
+<<<<<<< 68808f20f8f36445d74e6dbe285ecb8f59fc20e4
+>>>>>>> /*Fixing mergin problems*/
 =======
   const HeaderBar = (props) => (
       <AppBar id='appBar'>
@@ -36,11 +39,16 @@ import Toolbar from 'material-ui/Toolbar';
             <Link to="/profile"><Button id='profile' color="inherit">Profile</Button></Link>
 >>>>>>> trying to render avatar in profile page
 >>>>>>> /*merge conflicts*/
+<<<<<<< 05f9b8a4e79154a86afecf7f7e65bb536db79f8b
 <<<<<<< 256c10199f1e3f6c2eb102f12e3cbd74ed62b58d
 =======
 >>>>>>> /*Fixing mergin problems*/
 =======
 >>>>>>> /*merge conflicts*/
+=======
+=======
+>>>>>>> /*Fixing mergin problems*/
+>>>>>>> /*Fixing mergin problems*/
             <div className='Log'><Button id='Login' label="Userlogin" color="inherit">Log in</Button></div>
           </Toolbar>
       </AppBar>
