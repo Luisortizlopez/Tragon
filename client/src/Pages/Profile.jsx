@@ -88,6 +88,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
   render() {
 
     return (
+<<<<<<< 087efd0299330de328b743680af824dcb3c4f6cb
 <<<<<<< 625c91583b9b2ce919692702e9944ccfed85914e
 <<<<<<< b75dc5e9b802b3ff568b161eb3cdde03f8f0396a
 <<<<<<< 12d1535c179335454132306bda69e5051fd7bec0
@@ -105,6 +106,15 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
       <ProfilePage />
 >>>>>>> profile page in process
+=======
+<<<<<<< c238647732a37bab123421f420669429889eded9
+      <ProfilePage />
+=======
+      <div>
+      <ProfilePage />
+      </div>
+>>>>>>> /*merge conflicts*/
+>>>>>>> /*merge conflicts*/
     )
   }
 }
