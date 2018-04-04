@@ -4,6 +4,7 @@ import Select from 'react-select';
 
 
 
+
 export default class HomeContainer extends Component {
   state = {
     selectedOption: '',
@@ -44,6 +45,10 @@ export default class HomeContainer extends Component {
         ) : (
           <Home submitSearch={this.submitSearch} />
         )}
+        <Switch>
+          <Route exact path="/" render={(props) => <Home submitSearch={this.submitSearch} /> } />
+          <Route path='/profile' components={Profile} />
+        </Switch>
       </div>
     );
   }
