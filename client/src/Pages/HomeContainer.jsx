@@ -19,7 +19,14 @@ import Profile from './Profile.jsx';
 =======
 import Results from './Results.jsx';
 import Home from './HomePage.jsx';
+<<<<<<< 087efd0299330de328b743680af824dcb3c4f6cb
 >>>>>>> profile page in process
+=======
+<<<<<<< c238647732a37bab123421f420669429889eded9
+=======
+import ProfilePage from '../components/profileComp/ProfileComp.jsx';
+>>>>>>> /*merge conflicts*/
+>>>>>>> /*merge conflicts*/
 import Profile from './Profile.jsx';
 
 
