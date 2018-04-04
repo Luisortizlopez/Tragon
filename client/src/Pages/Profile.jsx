@@ -1,5 +1,9 @@
 import React from 'react';
 import ProfilePage from '../components/home/ProfileComp.jsx';
+<<<<<<< bdaca80feb80c2c0d1252ec911311f9edbb26d20
+=======
+
+>>>>>>> /*Fixing mergin problems*/
 
  class Profile extends React.Component {
   state = {
