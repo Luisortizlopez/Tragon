@@ -5,7 +5,6 @@ import Button from 'material-ui/Button';
 import Toolbar from 'material-ui/Toolbar';
 
 
-
   const HeaderBar = (props) => (
       <AppBar id='appBar'>
           <Toolbar>
