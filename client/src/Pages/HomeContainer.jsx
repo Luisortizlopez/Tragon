@@ -6,7 +6,19 @@ import {Switch, Route, withRouter} from 'react-router-dom';
 
 >>>>>>> working in HomeContainer
 import Results from './Results.jsx';
+<<<<<<< 075605e6c57cd7ab37bfb74a5fb5b72994355bce
 import Home from './HomePage.jsx'
+=======
+import Home from './HomePage.jsx';
+<<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
+<<<<<<< a2d1ac580904371a3dd6230f8e566711c0a02a71
+=======
+import ProfilePage from '../components/profileComp/ProfileComp.jsx';
+>>>>>>> /*merge conflicts*/
+=======
+>>>>>>> /*Fixing mergin problems*/
+import Profile from './Profile.jsx';
+>>>>>>> /*Fixing mergin problems*/
 
 export default class HomeContainer extends Component {
   state = {
