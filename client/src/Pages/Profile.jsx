@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< 1d3a09abbcbbb7149757c4b62079173ab38ad02c
 <<<<<<< 84b6d1eadaa4520ebe85a517e1282c75b9773843
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
@@ -10,6 +11,8 @@ export default class Profile extends Component {
 =======
 >>>>>>> /*Fixing mergin problems*/
 =======
+=======
+>>>>>>> /*merge problems*/
 import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*Fixing mergin problems*/
