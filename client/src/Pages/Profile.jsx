@@ -93,6 +93,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
 >>>>>>> /*Fixed merge conflict*/
 
+<<<<<<< ae129cf9192ac6f4462a26be83622ed478b5160f
 <<<<<<< 9cdf7d0df792e7e0383c7e7c99b25e1c5707f923
 >>>>>>> /*Merge Conflicts*/
 =======
@@ -113,6 +114,9 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
  class Profile extends React.Component {
 >>>>>>> profile page in process
+=======
+export default class Profile extends React.Component {
+>>>>>>> /*merge conflicts*/
   state = {
     person: []
   }
@@ -122,6 +126,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
   render() {
 
     return (
+<<<<<<< ae129cf9192ac6f4462a26be83622ed478b5160f
 <<<<<<< 218412ccf48eb37f72bba104cbfbd6ec6c902251
 <<<<<<< 10e052bc54275add418b0aeb6b67310ae43ca4f8
 <<<<<<< 4bb1ad7dee53da19a7b8869bb03b6a22692b7173
@@ -199,8 +204,11 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
       <ProfilePage />
 >>>>>>> fixed merge conflict
 >>>>>>> fixed merge conflict
+=======
+      <div>
+      <ProfilePage />
+      </div>
+>>>>>>> /*merge conflicts*/
     )
   }
 }
-
-export default Profile;
