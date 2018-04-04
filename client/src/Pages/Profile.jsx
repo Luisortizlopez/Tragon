@@ -65,12 +65,16 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 <<<<<<< 8fa4dd0c5d24fc40af6312ba08ba281f8e5e05ae
 >>>>>>> profile page in process
 
+<<<<<<< 12d1535c179335454132306bda69e5051fd7bec0
 =======
 >>>>>>> profile page in process
 =======
 >>>>>>> styling landing page
  class Profile extends React.Component {
 >>>>>>> /*Fixing mergin problems*/
+=======
+ class Profile extends React.Component {
+>>>>>>> profile page in process
   state = {
     person: []
   }
@@ -80,9 +84,13 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
   render() {
 
     return (
+<<<<<<< 12d1535c179335454132306bda69e5051fd7bec0
       <div>
       <ProfilePage />
       </div>
+=======
+      <ProfilePage />
+>>>>>>> profile page in process
     )
   }
 }

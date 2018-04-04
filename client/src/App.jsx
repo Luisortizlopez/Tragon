@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+<<<<<<< 12d1535c179335454132306bda69e5051fd7bec0
 import {firebaseAuth} from './components/auth/client.js'
+=======
+>>>>>>> profile page in process
 import HeaderBar from './components/home/HeaderBar.jsx';
 import Login from './components/auth/Login.jsx'
 import HomeContainer from './Pages/HomeContainer.jsx';
