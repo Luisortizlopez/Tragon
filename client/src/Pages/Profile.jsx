@@ -26,9 +26,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
   render() {
     return (
-      <div>
       <ProfilePage />
-      </div>
     )
   }
 }
