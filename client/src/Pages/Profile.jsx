@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< f3cab65c076d2cdc652d53ebdc8dfdc39e77ed2b
 <<<<<<< 4bb1ad7dee53da19a7b8869bb03b6a22692b7173
 <<<<<<< cf267eaa41b2ba81cd8a31a3c7da2ab518fec551
 <<<<<<< 2055c7ba49a28fcc0f9df2d015cac11f75968503
@@ -52,9 +53,15 @@ import AvatarVender from '../components/profile/AvatarVender.jsx';
 
 <<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 =======
+<<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
+import ProfilePage from '../components/home/ProfileComp.jsx';
+
+>>>>>>> /*Fixing mergin problems*/
+=======
 import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*Fixing mergin problems*/
+<<<<<<< f3cab65c076d2cdc652d53ebdc8dfdc39e77ed2b
 >>>>>>> /*Fixing mergin problems*/
 <<<<<<< cf267eaa41b2ba81cd8a31a3c7da2ab518fec551
 <<<<<<< 57e0c578d720207c0b9d088e54e9ff3c27683221
@@ -62,6 +69,8 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 =======
 =======
 import ProfilePage from '../components/home/ProfileComp.jsx';
+=======
+>>>>>>> /*Fixing mergin problems*/
 
 =======
 import ProfilePage from '../components/home/ProfileComp.jsx';
