@@ -2,7 +2,7 @@ import React from 'react';
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
-export default class Profile extends React.Component {
+ class Profile extends React.Component {
   state = {
     person: []
   }
@@ -32,3 +32,5 @@ export default class Profile extends React.Component {
     )
   }
 }
+
+export default Profile;
