@@ -35,6 +35,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 <<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+<<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 =======
 import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
@@ -48,7 +49,12 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
 >>>>>>> /*Merge Conflicts*/
+<<<<<<< 8dac2bc385844405e714c2b57958c8d92fbc2980
 >>>>>>> /*Merge Conflicts*/
+=======
+=======
+>>>>>>> /*Merge Conflict*/
+>>>>>>> /*Merge Conflict*/
 
 <<<<<<< 9cdf7d0df792e7e0383c7e7c99b25e1c5707f923
 >>>>>>> /*Merge Conflicts*/
@@ -69,6 +75,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
   render() {
 
     return (
+<<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 <<<<<<< c0efbd1a2a669b0b2a880f732b7aba8494e19dbe
 <<<<<<< 59c5c71839f5999e5bd11da5620270d82e2030b8
 <<<<<<< c238647732a37bab123421f420669429889eded9
@@ -86,6 +93,11 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
       <ProfilePage />
       </div>
 >>>>>>> /*merge conflicts*/
+=======
+      <div>
+      <ProfilePage />
+      </div>
+>>>>>>> /*Merge Conflict*/
     )
   }
 }
