@@ -29,6 +29,7 @@ import ProfilePage from '../components/profileComp/ProfileComp.jsx';
 import Profile from './Profile.jsx';
 
 
+
 export default class HomeContainer extends Component {
   state = {
     vendors: null
