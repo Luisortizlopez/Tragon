@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< 16441e74a77d0a5be222f823e486a96f7b220da3
 <<<<<<< 7e281aa3ea79abae418b074be4d68683df18fe2d
 <<<<<<< f3cab65c076d2cdc652d53ebdc8dfdc39e77ed2b
 <<<<<<< 4bb1ad7dee53da19a7b8869bb03b6a22692b7173
@@ -12,6 +13,8 @@ import React from 'react';
 <<<<<<< 611051f6ecbeb8332bde510fb085749bbf28edc8
 >>>>>>> /*Merge Conflicts*/
 <<<<<<< e619b692fceb5b46c242dd4ef7959bc00957f8a7
+=======
+>>>>>>> /*merge problems*/
 <<<<<<< 1d3a09abbcbbb7149757c4b62079173ab38ad02c
 <<<<<<< 84b6d1eadaa4520ebe85a517e1282c75b9773843
 >>>>>>> trying to render avatar in profile page
@@ -62,6 +65,8 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
 >>>>>>> /*Fixing mergin problems*/
 =======
+=======
+>>>>>>> /*merge problems*/
 import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*Fixing mergin problems*/
