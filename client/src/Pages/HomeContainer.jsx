@@ -5,6 +5,7 @@ import Results from './Results.jsx';
 import Home from './HomePage.jsx'
 import Profile from './Profile.jsx';
 
+
 export default class HomeContainer extends Component {
   state = {
     vendors: null
