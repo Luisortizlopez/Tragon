@@ -6,12 +6,11 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
 
+
 const Home = (props) => (
   <div>
     <SearchBar submitSearch={props.submitSearch} />
     <LocationMenu />
-
-
   </div>
 )
 

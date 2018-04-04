@@ -2,7 +2,7 @@ import React from 'react';
 import Avatar from 'material-ui/Avatar';
 import UserName from './UserName.jsx';
 import Card from 'material-ui/Card';
-import RatingStars from './RatingComp.jsx'
+
 
 
 const style = {
@@ -16,7 +16,6 @@ const ProfilePage = (props) => (
     <Card className='ProfileCard' style={{backgroundColor: "#94b8b8"}}>
     <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/TragonComiendo.jpg' className='Picture' />
     <UserName id='userName' />
-    <RatingStars />
    </Card>
  </div> )
 
