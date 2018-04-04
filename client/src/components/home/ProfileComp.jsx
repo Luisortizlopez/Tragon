@@ -18,7 +18,9 @@ const ProfilePage = (props) => (
     <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/TragonComiendo.jpg' className='Picture' />
     <UserName id='userName' />
    </Card>
+
  </div> )
+);
 
 
 export default ProfilePage;
