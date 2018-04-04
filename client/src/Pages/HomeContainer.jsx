@@ -3,6 +3,10 @@ import Select from 'react-select';
 import {Switch, Route, withRouter} from 'react-router-dom';
 import Results from './Results.jsx';
 import Home from './HomePage.jsx';
+<<<<<<< c238647732a37bab123421f420669429889eded9
+=======
+import ProfilePage from '../components/profileComp/ProfileComp.jsx';
+>>>>>>> /*merge conflicts*/
 import Profile from './Profile.jsx';
 
 
