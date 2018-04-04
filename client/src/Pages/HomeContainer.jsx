@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Select from 'react-select';
-
 import Results from './Results.jsx';
-import Home from './HomePage.jsx'
+import Home from './HomePage.jsx';
+import Profile from './Profile.jsx';
 
 export default class HomeContainer extends Component {
   state = {

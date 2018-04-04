@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-
 import HeaderBar from './components/home/HeaderBar.jsx';
 import HomeContainer from './Pages/HomeContainer.jsx';
 import Profile from './Pages/Profile.jsx';
