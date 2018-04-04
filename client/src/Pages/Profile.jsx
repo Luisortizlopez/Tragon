@@ -1,8 +1,13 @@
 import React from 'react';
+<<<<<<< cf267eaa41b2ba81cd8a31a3c7da2ab518fec551
 <<<<<<< 2055c7ba49a28fcc0f9df2d015cac11f75968503
 <<<<<<< 1ca2fbc6b8b283a2ff8c6addbeadfcc1d664cf0d
 <<<<<<< 179e9693d49e81a7083ff8f5db93fa9a2811ebbc
 =======
+=======
+<<<<<<< 296b74dfbfb680ea4c54f7d8aec1f132ae0a750b
+<<<<<<< 611051f6ecbeb8332bde510fb085749bbf28edc8
+>>>>>>> /*Merge Conflicts*/
 <<<<<<< e619b692fceb5b46c242dd4ef7959bc00957f8a7
 <<<<<<< 1d3a09abbcbbb7149757c4b62079173ab38ad02c
 <<<<<<< 84b6d1eadaa4520ebe85a517e1282c75b9773843
@@ -50,6 +55,7 @@ import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*Fixing mergin problems*/
 >>>>>>> /*Fixing mergin problems*/
+<<<<<<< cf267eaa41b2ba81cd8a31a3c7da2ab518fec551
 <<<<<<< 57e0c578d720207c0b9d088e54e9ff3c27683221
 >>>>>>> /*Fixing mergin problems*/
 =======
@@ -64,6 +70,13 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 import ProfilePage from '../components/home/ProfileComp.jsx';
 >>>>>>> trying to render avatar in profile page
 >>>>>>> trying to render avatar in profile page
+=======
+=======
+import ProfilePage from '../components/home/ProfileComp.jsx';
+
+
+>>>>>>> /*Merge Conflicts*/
+>>>>>>> /*Merge Conflicts*/
 
 >>>>>>> /*Merge Conflicts*/
 <<<<<<< 8dac2bc385844405e714c2b57958c8d92fbc2980
