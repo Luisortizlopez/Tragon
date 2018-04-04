@@ -1,6 +1,10 @@
 import React from 'react';
+<<<<<<< 885ae94c9894b0b1d7f60e483d24738a78633c71
 <<<<<<< ee2d5a2340e26bd2ac68475b6558f6694b56dedc
 =======
+=======
+<<<<<<< 296b74dfbfb680ea4c54f7d8aec1f132ae0a750b
+>>>>>>> /*Merge Conflicts*/
 <<<<<<< 611051f6ecbeb8332bde510fb085749bbf28edc8
 <<<<<<< e619b692fceb5b46c242dd4ef7959bc00957f8a7
 >>>>>>> /*Fixing mergin problems*/
@@ -33,7 +37,15 @@ import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*Fixing mergin problems*/
 >>>>>>> /*Fixing mergin problems*/
+<<<<<<< 885ae94c9894b0b1d7f60e483d24738a78633c71
 >>>>>>> /*Fixing mergin problems*/
+=======
+=======
+import ProfilePage from '../components/home/ProfileComp.jsx';
+
+
+>>>>>>> /*Merge Conflicts*/
+>>>>>>> /*Merge Conflicts*/
 
  class Profile extends React.Component {
 >>>>>>> profile page in process
