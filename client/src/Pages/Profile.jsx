@@ -41,6 +41,7 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
   render() {
     const {picture, name} = this.state.person
     return (
+<<<<<<< ace5c5133462076b90bf6882580db64fa2081275
 <<<<<<< 32c0952e5720f7dbf3d90626d54c5a98a0fc00cc
 <<<<<<< 7861a6a22543abea8b4ce779d578986b2319f233
 <<<<<<< 78b5499c5ef91a5ffe368165e798111d339ed8e0
@@ -53,6 +54,9 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
       <ProfilePage />
 >>>>>>> profile page in process
 =======
+=======
+<<<<<<< 59c5c71839f5999e5bd11da5620270d82e2030b8
+>>>>>>> profile page in process
 <<<<<<< c238647732a37bab123421f420669429889eded9
       <ProfilePage />
 >>>>>>> /*merge conflicts*/
@@ -61,6 +65,9 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
       <ProfilePage />
       </div>
 >>>>>>> /*merge conflicts*/
+=======
+      <ProfilePage />
+>>>>>>> profile page in process
     )
   }
 }
