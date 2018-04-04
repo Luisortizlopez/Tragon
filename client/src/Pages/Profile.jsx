@@ -26,7 +26,9 @@ import AvatarVender from '../components/profile/AvatarVender.jsx';
   render() {
     const {picture, name} = this.state.person
     return (
+      <div>
       <ProfilePage />
+      </div>
     )
   }
 }

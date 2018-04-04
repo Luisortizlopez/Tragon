@@ -10,9 +10,44 @@
 
 <body>
   <div id='app'></div>
+<<<<<<< 2e2a403099e4794edf41d958edfee7184e77c602
   <script async type="text/javascript" src='bundle.js'></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+=======
+  <script type="text/javascript" src='bundle.js'></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsQMEFiz-SUk6rKzpZs9sJqKR0TN8_eyM&callback=initMap"></script>
+  <script async>
+    function checkLoginState() {
+      FB.getLoginStatus(function(response) {
+        statusChangeCallback(response);
+      });
+    }
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: '163273487712660',
+        cookie: true,
+        xfbml: true,
+        version: 'SDK'
+      });
+
+      FB.AppEvents.logPageView();
+
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+>>>>>>> /*merge conflicts*/
 </body>
 
 </html>
