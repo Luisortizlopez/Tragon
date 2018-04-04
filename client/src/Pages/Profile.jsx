@@ -2,10 +2,13 @@ import React from 'react';
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
+<<<<<<< 02e8ad6ebbf390c9f74d635677614ed96a5cff4d
 <<<<<<< 8fa4dd0c5d24fc40af6312ba08ba281f8e5e05ae
 
 =======
 >>>>>>> profile page in process
+=======
+>>>>>>> working on profile
  class Profile extends React.Component {
   state = {
     person: []
