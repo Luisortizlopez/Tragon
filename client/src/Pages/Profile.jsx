@@ -30,6 +30,7 @@ export default class Profile extends Component {
   render() {
     const {picture, name} = this.state.person
     return (
+<<<<<<< 7861a6a22543abea8b4ce779d578986b2319f233
 <<<<<<< 78b5499c5ef91a5ffe368165e798111d339ed8e0
       <div>
         <ul>
@@ -39,6 +40,11 @@ export default class Profile extends Component {
 =======
       <ProfilePage />
 >>>>>>> profile page in process
+=======
+      <div>
+      <ProfilePage />
+      </div>
+>>>>>>> /*merge conflicts*/
     )
   }
 }
