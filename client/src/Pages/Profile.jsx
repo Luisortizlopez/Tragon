@@ -26,7 +26,9 @@ import AvatarVender from '../components/profile/AvatarVender.jsx';
 
   render() {
     return (
+      <div>
       <ProfilePage />
+      </div>
     )
   }
 }
