@@ -5,6 +5,7 @@ import LocationMenu from '../components/home/LocationMenu.jsx';
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
+
 const Home = (props) => (
   <div>
     <SearchBar submitSearch={props.submitSearch} />
