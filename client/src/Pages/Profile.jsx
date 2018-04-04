@@ -89,6 +89,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
+<<<<<<< c9db6f2c356fd12b1fa67580c32903392396f6aa
 >>>>>>> /*Merge Conflicts*/
 >>>>>>> /*Merge Conflicts*/
 
@@ -129,6 +130,12 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
  class Profile extends React.Component {
 >>>>>>> /*Fixing mergin problems*/
 =======
+=======
+<<<<<<< 8fa4dd0c5d24fc40af6312ba08ba281f8e5e05ae
+
+=======
+>>>>>>> profile page in process
+>>>>>>> profile page in process
  class Profile extends React.Component {
 >>>>>>> profile page in process
 =======
@@ -146,6 +153,7 @@ export default class Profile extends React.Component {
   render() {
 
     return (
+<<<<<<< c9db6f2c356fd12b1fa67580c32903392396f6aa
 <<<<<<< ae129cf9192ac6f4462a26be83622ed478b5160f
 <<<<<<< 218412ccf48eb37f72bba104cbfbd6ec6c902251
 <<<<<<< 10e052bc54275add418b0aeb6b67310ae43ca4f8
@@ -229,6 +237,9 @@ export default class Profile extends React.Component {
       <ProfilePage />
       </div>
 >>>>>>> /*merge conflicts*/
+=======
+      <ProfilePage />
+>>>>>>> profile page in process
     )
   }
 }
