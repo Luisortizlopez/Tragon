@@ -153,6 +153,7 @@ export default class Profile extends React.Component {
   render() {
 
     return (
+<<<<<<< add3bb20d499d3f2c3bab27578c67c0fab3772e4
 <<<<<<< c9db6f2c356fd12b1fa67580c32903392396f6aa
 <<<<<<< ae129cf9192ac6f4462a26be83622ed478b5160f
 <<<<<<< 218412ccf48eb37f72bba104cbfbd6ec6c902251
@@ -233,13 +234,20 @@ export default class Profile extends React.Component {
 >>>>>>> fixed merge conflict
 >>>>>>> fixed merge conflict
 =======
+<<<<<<< c238647732a37bab123421f420669429889eded9
+      <ProfilePage />
+>>>>>>> /*merge conflicts*/
+=======
       <div>
       <ProfilePage />
       </div>
 >>>>>>> /*merge conflicts*/
+<<<<<<< add3bb20d499d3f2c3bab27578c67c0fab3772e4
 =======
       <ProfilePage />
 >>>>>>> profile page in process
+=======
+>>>>>>> /*merge conflicts*/
     )
   }
 }
