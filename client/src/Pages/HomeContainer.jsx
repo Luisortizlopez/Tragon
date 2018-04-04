@@ -5,11 +5,17 @@ import Results from './Results.jsx';
 import Home from './HomePage.jsx';
 import Profile from './Profile.jsx';
 
+<<<<<<< 98c539d8ce26ee7da541a5c028b2551e687a1628
 
 
 
 
 
+=======
+import Profile from './Profile.jsx';
+
+>>>>>>> profile page in process
+>>>>>>> profile page in process
 export default class HomeContainer extends Component {
   state = {
     vendors: null
