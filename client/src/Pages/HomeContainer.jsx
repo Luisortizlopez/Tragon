@@ -11,9 +11,6 @@ import Profile from './Profile.jsx';
 
 
 
-import Profile from './Profile.jsx';
-
->>>>>>> profile page in process
 export default class HomeContainer extends Component {
   state = {
     vendors: null
