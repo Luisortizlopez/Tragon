@@ -18,7 +18,6 @@ const ProfilePage = (props) => (
     <Card className='ProfileCard' style={{backgroundColor: "#E6E6FA"}}>
     <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/TragonComiendo.jpg' className='Picture' />
     <UserName id='UsersName' />
-    <RatingStars />
    </Card>
  </div>
 );
