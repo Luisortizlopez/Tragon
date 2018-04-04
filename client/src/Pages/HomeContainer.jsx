@@ -33,18 +33,11 @@ export default class HomeContainer extends Component {
   render() {
     return (
       <div>
-<<<<<<< 919203272d76756a715454767cd153aa232841b2
         {this.state.vendors ? (
           <Results vendors={this.state.vendors} />
         ) : (
           <Home submitSearch={this.submitSearch} />
         )}
-=======
-        <Switch>
-          <Route exact path="/" render={(props) => <Home submitSearch={this.submitSearch} /> } />
-          <Route render={(props) => <Results {...props} vendors={this.state.vendors} /> } />
-        </Switch>
->>>>>>> working in HomeContainer
       </div>
     );
   }
