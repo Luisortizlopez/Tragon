@@ -12,8 +12,8 @@ import Toolbar from 'material-ui/Toolbar';
             <Link to="/user"><Button id='AvatarVender' label="profile" color="inherit">Profile</Button></Link>
             <Link to="/vendor"><Button id='AvatarVender' label="add-vendor" color="inherit">Add A New Vendor</Button></Link>
             <Button id='/Logout' label='log-out' color='inherit' onClick={this.props.logout}>Logout</Button>
-            <div className='/Log'><Button id='Login' label="Userlogin" color="inherit">Log in</Button></div>
-
+            <Link to="login"><div className='Log'><Button id='Log-in' label="log-in" color="inherit">Login</Button></div></Link>
+            <div className='Log'><Button id='Login' label="Userlogin" color="inherit">Log in</Button></div>
           </Toolbar>
       </AppBar>
     )
