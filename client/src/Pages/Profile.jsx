@@ -1,9 +1,17 @@
 import React from 'react';
+<<<<<<< 84b6d1eadaa4520ebe85a517e1282c75b9773843
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+<<<<<<< ca997bc8a49fa8b05abc68697369324c882822e6
 <<<<<<< 78b5499c5ef91a5ffe368165e798111d339ed8e0
 export default class Profile extends Component {
 =======
+=======
+=======
+import MyGoogleMap from '../components/Map/MapConfig.jsx';
+import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
+>>>>>>> /*Fixing mergin problems*/
+>>>>>>> /*Fixing mergin problems*/
 
  class Profile extends React.Component {
 >>>>>>> profile page in process
