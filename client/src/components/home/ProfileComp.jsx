@@ -1,5 +1,6 @@
 import React from 'react';
 import Avatar from 'material-ui/Avatar';
+<<<<<<< 9a075c964c58c78ef5d777f6e95d7ecc86ae0841
 <<<<<<< 7dea444af3b1b1e974eb877e5acac3ce9cedad2f
 import UserName from './UserName.jsx';
 import Card from 'material-ui/Card';
@@ -7,6 +8,10 @@ import Card from 'material-ui/Card';
 
 
 >>>>>>> trying to render avatar in profile page
+=======
+
+
+>>>>>>> /*merge conflicts*/
 
 const style = {
     width: 160,
@@ -14,6 +19,7 @@ const style = {
 }
 
 
+<<<<<<< 9a075c964c58c78ef5d777f6e95d7ecc86ae0841
 <<<<<<< 7dea444af3b1b1e974eb877e5acac3ce9cedad2f
 
 const ProfilePage = (props) => (
@@ -24,12 +30,17 @@ const ProfilePage = (props) => (
    </Card>
  </div>
 =======
+=======
+>>>>>>> /*merge conflicts*/
 const ProfilePage = (props) => (
   <div className='UserAvatar'>
     <Avatar style={style} alt='UserAvatar' src='../css/TragonComiendo.jpg' className='Picture' />
  </div>
 
+<<<<<<< 9a075c964c58c78ef5d777f6e95d7ecc86ae0841
 >>>>>>> trying to render avatar in profile page
+=======
+>>>>>>> /*merge conflicts*/
 );
 
 export default ProfilePage;
