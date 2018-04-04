@@ -23,7 +23,6 @@ import Profile from './Profile.jsx';
 =======
 import Results from './Results.jsx';
 import Home from './HomePage.jsx';
-import ProfilePage from '../components/profileComp/ProfileComp.jsx';
 import Profile from './Profile.jsx';
 >>>>>>> trying to render avatar in profile page
 
