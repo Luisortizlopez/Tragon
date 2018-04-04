@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< 611051f6ecbeb8332bde510fb085749bbf28edc8
 <<<<<<< e619b692fceb5b46c242dd4ef7959bc00957f8a7
 <<<<<<< 1d3a09abbcbbb7149757c4b62079173ab38ad02c
 <<<<<<< 84b6d1eadaa4520ebe85a517e1282c75b9773843
@@ -13,6 +14,15 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 =======
 import ProfilePage from '../components/home/ProfileComp.jsx';
 >>>>>>> trying to render avatar in profile page
+=======
+<<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
+import ProfilePage from '../components/home/ProfileComp.jsx';
+
+=======
+import MyGoogleMap from '../components/Map/MapConfig.jsx';
+import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
+>>>>>>> /*Fixing mergin problems*/
+>>>>>>> /*Fixing mergin problems*/
 
  class Profile extends React.Component {
   state = {
