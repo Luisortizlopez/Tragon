@@ -11,8 +11,14 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 >>>>>>> /*Fixing mergin problems*/
 =======
 
+<<<<<<< 9cdf7d0df792e7e0383c7e7c99b25e1c5707f923
 >>>>>>> /*Merge Conflicts*/
+=======
+<<<<<<< 8fa4dd0c5d24fc40af6312ba08ba281f8e5e05ae
+>>>>>>> profile page in process
 
+=======
+>>>>>>> profile page in process
  class Profile extends React.Component {
 >>>>>>> /*Fixing mergin problems*/
   state = {
@@ -24,9 +30,7 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
   render() {
 
     return (
-      <div>
       <ProfilePage />
-      </div>
     )
   }
 }
