@@ -20,6 +20,7 @@ import Toolbar from 'material-ui/Toolbar';
             <Link to="/vendor"><Button id='AvatarVender' label="profile" color="white">AddVendor</Button></Link>
             <Link to="/profile"><Button id='AvatarVender' label="profile" color="white">Profile</Button></Link>
 
+
   const HeaderBar = (props) => (
       <AppBar id='appBar'>
           <Toolbar>
