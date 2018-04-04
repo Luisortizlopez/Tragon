@@ -63,7 +63,11 @@ import AvatarVender from '../components/profile/AvatarVender.jsx';
 <<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+<<<<<<< 5d6550e71b059d8451e7eb841e97129b4a1dd6dc
 >>>>>>> /*Fixing mergin problems*/
+=======
+<<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
+>>>>>>> /*Merge Conflict*/
 =======
 =======
 >>>>>>> /*merge problems*/
@@ -97,6 +101,8 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 <<<<<<< c9db6f2c356fd12b1fa67580c32903392396f6aa
 >>>>>>> /*Merge Conflicts*/
 >>>>>>> /*Merge Conflicts*/
+=======
+>>>>>>> /*Merge Conflict*/
 
 <<<<<<< 11191656f4a838f49ea2a357d0936ef4f64eb815
 >>>>>>> /*Merge Conflicts*/
@@ -158,6 +164,7 @@ export default class Profile extends React.Component {
   render() {
 
     return (
+<<<<<<< 5d6550e71b059d8451e7eb841e97129b4a1dd6dc
 <<<<<<< bde9c6751f6e7524e5ca2b8db8de0d4e19054083
 <<<<<<< add3bb20d499d3f2c3bab27578c67c0fab3772e4
 <<<<<<< c9db6f2c356fd12b1fa67580c32903392396f6aa
@@ -176,6 +183,9 @@ export default class Profile extends React.Component {
       </div>
 =======
 =======
+=======
+<<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
+>>>>>>> /*Merge Conflict*/
 =======
 <<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 >>>>>>> /*Merge Conflict*/
@@ -207,6 +217,7 @@ export default class Profile extends React.Component {
       <ProfilePage />
       </div>
 >>>>>>> /*merge conflicts*/
+<<<<<<< 5d6550e71b059d8451e7eb841e97129b4a1dd6dc
 <<<<<<< a3ea3014f488b55c765da36b6dfb21e1fa0a81e7
 <<<<<<< 45813a3762ab6d90c8e655e366d707d206c983a4
 >>>>>>> /*merge conflicts*/
@@ -214,10 +225,13 @@ export default class Profile extends React.Component {
 >>>>>>> /*merge conflicts*/
 =======
 =======
+>>>>>>> /*Merge Conflict*/
+=======
       <div>
       <ProfilePage />
       </div>
 >>>>>>> /*Merge Conflict*/
+<<<<<<< 5d6550e71b059d8451e7eb841e97129b4a1dd6dc
 >>>>>>> /*Merge Conflict*/
 =======
       <div>
@@ -259,6 +273,8 @@ export default class Profile extends React.Component {
 >>>>>>> /*merge conflicts*/
 =======
 >>>>>>> profile page in process
+=======
+>>>>>>> /*Merge Conflict*/
     )
   }
 }
