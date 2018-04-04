@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< 1ca2fbc6b8b283a2ff8c6addbeadfcc1d664cf0d
 <<<<<<< 179e9693d49e81a7083ff8f5db93fa9a2811ebbc
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
@@ -48,6 +49,9 @@ import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
 =======
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+=======
+import ProfilePage from '../components/home/ProfileComp.jsx';
+>>>>>>> /*Fixing mergin problems*/
 
 >>>>>>> /*Merge Conflicts*/
 <<<<<<< 8dac2bc385844405e714c2b57958c8d92fbc2980
