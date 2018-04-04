@@ -26,7 +26,13 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
   render() {
     return (
+<<<<<<< c238647732a37bab123421f420669429889eded9
       <ProfilePage />
+=======
+      <div>
+      <ProfilePage />
+      </div>
+>>>>>>> /*merge conflicts*/
     )
   }
 }
