@@ -1,6 +1,8 @@
 import React from 'react';
 import Avatar from 'material-ui/Avatar';
+import UserName from './UserName.jsx';
 import Card from 'material-ui/Card';
+
 
 
 const style = {
