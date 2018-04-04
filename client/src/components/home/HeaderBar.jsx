@@ -16,7 +16,7 @@ export default class HeaderBar extends Component {
             <Button id='/Logout' label='log-out' color='inherit' onClick={this.props.logout}>Logout</Button>
             <Link to="login"><div className='Log'><Button id='Log-in' label="log-in" color="inherit">Login</Button></div></Link>
             <div className='/Log'><Button id='Login' label="Userlogin" color="inherit">Log in</Button></div>
->>>>>>> /*Fixing mergin problems*/
+
           </Toolbar>
       </AppBar>
     );
