@@ -17,5 +17,3 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
     );
   }
 }
-
-export default Profile;
