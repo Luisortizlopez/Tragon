@@ -26,9 +26,13 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
   render() {
     return (
+<<<<<<< d885ffb06506d98a21bb556d9c647f0f587c204f
       <div>
       <ProfilePage />
       </div>
+=======
+      <ProfilePage />
+>>>>>>> profile page in process
     )
   }
 }
