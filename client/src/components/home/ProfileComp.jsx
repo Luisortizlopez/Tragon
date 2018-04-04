@@ -1,5 +1,6 @@
 import React from 'react';
 import Avatar from 'material-ui/Avatar';
+<<<<<<< fa0040e581db14b9e09d460004591f322f5e7ecd
 <<<<<<< ae129cf9192ac6f4462a26be83622ed478b5160f
 <<<<<<< 909d8c0704754faa24efaa29405a7dfa6e288f2e
 <<<<<<< 6ea53490d68c8c6305ef29d712c229e63905d9b4
@@ -17,6 +18,9 @@ import Card from 'material-ui/Card';
 >>>>>>> added card background to profile info
 =======
 =======
+=======
+<<<<<<< 583ae7d11696aaeaa5276cf28af8f6287267cfb2
+>>>>>>> trying to render avatar in profile page
 <<<<<<< 9a075c964c58c78ef5d777f6e95d7ecc86ae0841
 >>>>>>> /*merge conflicts*/
 <<<<<<< 7dea444af3b1b1e974eb877e5acac3ce9cedad2f
@@ -33,7 +37,14 @@ import Card from 'material-ui/Card';
 
 
 >>>>>>> /*merge conflicts*/
+<<<<<<< fa0040e581db14b9e09d460004591f322f5e7ecd
 >>>>>>> /*merge conflicts*/
+=======
+=======
+
+
+>>>>>>> trying to render avatar in profile page
+>>>>>>> trying to render avatar in profile page
 
 const style = {
     width: 160,
@@ -41,6 +52,7 @@ const style = {
 }
 
 
+<<<<<<< 583ae7d11696aaeaa5276cf28af8f6287267cfb2
 <<<<<<< 9a075c964c58c78ef5d777f6e95d7ecc86ae0841
 <<<<<<< 7dea444af3b1b1e974eb877e5acac3ce9cedad2f
 
@@ -68,15 +80,20 @@ const ProfilePage = (props) => (
 =======
 =======
 >>>>>>> /*merge conflicts*/
+=======
+>>>>>>> trying to render avatar in profile page
 const ProfilePage = (props) => (
   <div className='UserAvatar'>
     <Avatar style={style} alt='UserAvatar' src='../css/TragonComiendo.jpg' className='Picture' />
  </div>
 
+<<<<<<< 583ae7d11696aaeaa5276cf28af8f6287267cfb2
 <<<<<<< 9a075c964c58c78ef5d777f6e95d7ecc86ae0841
 >>>>>>> trying to render avatar in profile page
 =======
 >>>>>>> /*merge conflicts*/
+=======
+>>>>>>> trying to render avatar in profile page
 );
 >>>>>>> /*merge conflicts*/
 
