@@ -3,6 +3,7 @@ import Select from 'react-select';
 <<<<<<< 919203272d76756a715454767cd153aa232841b2
 =======
 import {Switch, Route, withRouter} from 'react-router-dom';
+<<<<<<< efdde03a24c52adf3d03df2a25568871bc3ad237
 
 >>>>>>> working in HomeContainer
 import Results from './Results.jsx';
@@ -19,6 +20,12 @@ import ProfilePage from '../components/profileComp/ProfileComp.jsx';
 >>>>>>> /*Fixing mergin problems*/
 import Profile from './Profile.jsx';
 >>>>>>> /*Fixing mergin problems*/
+=======
+import Results from './Results.jsx';
+import Home from './HomePage.jsx';
+import ProfilePage from '../components/profileComp/ProfileComp.jsx';
+import Profile from './Profile.jsx';
+>>>>>>> trying to render avatar in profile page
 
 export default class HomeContainer extends Component {
   state = {
@@ -64,7 +71,7 @@ export default class HomeContainer extends Component {
 =======
         <Switch>
           <Route exact path="/" render={(props) => <Home submitSearch={this.submitSearch} /> } />
-          <Route render={(props) => <Results {...props} vendors={this.state.vendors} /> } />
+          <Route path='/profile' components={Profile} />
         </Switch>
 >>>>>>> working in HomeContainer
       </div>
