@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
 import Select from 'react-select';
+<<<<<<< c6978f181bb963b69488e0170b867e52ff733d03
 import {Switch, Route, withRouter} from 'react-router-dom';
 import Results from './Results.jsx';
 import Home from './HomePage.jsx';
 import Profile from './Profile.jsx';
+=======
+>>>>>>> working in HomeContainer
 
 
 
