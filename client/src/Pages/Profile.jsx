@@ -2,7 +2,7 @@ import React from 'react';
 import AvatarVender from '../components/profile/AvatarVender.jsx';
 
 
-export default class Profile extends React.Component {
+ class Profile extends React.Component {
   state = {
     person: []
   }
@@ -26,11 +26,9 @@ export default class Profile extends React.Component {
 
   render() {
     return (
-      <div>
-        <ul>
-          <AvatarVender vendors={this.state.person} picture={this.state.person.picture} />
-        </ul>
-      </div>
+      <ProfilePage />
     )
   }
 }
+
+export default Profile;
