@@ -19,6 +19,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 <<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+<<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 =======
 import MyGoogleMap from '../components/Map/MapConfig.jsx';
 import CardExampleWithAvatar from '../components/profile/AvatarVender.jsx';
@@ -29,6 +30,8 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
 
 >>>>>>> /*Merge Conflicts*/
+=======
+>>>>>>> /*Merge Conflict*/
 
 <<<<<<< 8fa4dd0c5d24fc40af6312ba08ba281f8e5e05ae
 
@@ -58,6 +61,7 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
   render() {
     const {picture, name} = this.state.person
     return (
+<<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 <<<<<<< c0efbd1a2a669b0b2a880f732b7aba8494e19dbe
 <<<<<<< 59c5c71839f5999e5bd11da5620270d82e2030b8
 <<<<<<< c238647732a37bab123421f420669429889eded9
@@ -75,6 +79,11 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
       <ProfilePage />
       </div>
 >>>>>>> /*merge conflicts*/
+=======
+      <div>
+      <ProfilePage />
+      </div>
+>>>>>>> /*Merge Conflict*/
     )
   }
 }
