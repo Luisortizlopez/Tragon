@@ -1,11 +1,7 @@
 import React from 'react';
-<<<<<<< 296b74dfbfb680ea4c54f7d8aec1f132ae0a750b
-<<<<<<< 611051f6ecbeb8332bde510fb085749bbf28edc8
-<<<<<<< e619b692fceb5b46c242dd4ef7959bc00957f8a7
-<<<<<<< 1d3a09abbcbbb7149757c4b62079173ab38ad02c
-<<<<<<< 84b6d1eadaa4520ebe85a517e1282c75b9773843
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+<<<<<<< 741a197e6d2e30d27a3a7ccac48777f1d316af35
 <<<<<<< d2b73761102f658885e1a4725f8999ffd7ef3b80
 <<<<<<< 84cb8ec61b57a20f14756b83d6abe8f36c0f4f8e
 <<<<<<< 550edbf9e8e1ecd9dc98ce4215d112f333efa2ba
@@ -55,6 +51,8 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
 >>>>>>> /*Merge Conflict*/
 >>>>>>> /*Merge Conflict*/
+=======
+>>>>>>> /*Fixed merge conflict*/
 
 <<<<<<< 9cdf7d0df792e7e0383c7e7c99b25e1c5707f923
 >>>>>>> /*Merge Conflicts*/
@@ -75,29 +73,9 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
   render() {
 
     return (
-<<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
-<<<<<<< c0efbd1a2a669b0b2a880f732b7aba8494e19dbe
-<<<<<<< 59c5c71839f5999e5bd11da5620270d82e2030b8
-<<<<<<< c238647732a37bab123421f420669429889eded9
-      <ProfilePage />
-=======
       <div>
       <ProfilePage />
       </div>
->>>>>>> /*merge conflicts*/
-=======
-      <ProfilePage />
->>>>>>> profile page in process
-=======
-      <div>
-      <ProfilePage />
-      </div>
->>>>>>> /*merge conflicts*/
-=======
-      <div>
-      <ProfilePage />
-      </div>
->>>>>>> /*Merge Conflict*/
     )
   }
 }
