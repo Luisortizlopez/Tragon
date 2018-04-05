@@ -1,4 +1,4 @@
-import React from "react"
+simport React from "react"
 import {compose, withProps} from "recompose";
 import {GOOGLE_API} from '../../../../env.js';
 import {withScriptjs, withGoogleMap, GoogleMap, Marker,Infowindow} from "react-google-maps";
