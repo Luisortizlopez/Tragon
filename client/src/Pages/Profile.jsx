@@ -1,5 +1,4 @@
 import React from 'react';
-
 import AvatarVender from '../components/profile/AvatarVender.jsx';
 
 
