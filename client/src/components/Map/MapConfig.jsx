@@ -1,10 +1,14 @@
 import React from "react"
 import {compose, withProps} from "recompose";
+<<<<<<< c48b928c8975ba245f4aa38682ae078e72c8ce7f
 <<<<<<< 8e5c83ced4cb2d5eab943bc6f4cd924a775dc0ff
 import {GOOGLE_API} from '../../../../env.js';
 import {withScriptjs, withGoogleMap, GoogleMap, Marker,Infowindow} from "react-google-maps";
 =======
 //import {GOOGLE_API} from '../../../../.env';
+=======
+import {GOOGLE_API} from '../../../../.env';
+>>>>>>> working on Rating Component.
 import {withScriptjs, withGoogleMap, GoogleMap, Marker} from "react-google-maps";
 >>>>>>> fixing minor syntax errors in ProfileComp.jsx
 
