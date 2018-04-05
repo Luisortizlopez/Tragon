@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Select from 'react-select';
+import Home from './HomePage.jsx';
 
 export default class HomeContainer extends Component {
   state = {
