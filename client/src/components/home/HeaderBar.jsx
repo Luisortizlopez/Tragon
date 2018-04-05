@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
 import AppBar from 'material-ui/AppBar';
 import Button from 'material-ui/Button';
 import Toolbar from 'material-ui/Toolbar';
