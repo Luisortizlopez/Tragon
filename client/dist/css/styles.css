@@ -37,10 +37,13 @@ html {
   top: 130px;
 }
 
+<<<<<<< 6ea53490d68c8c6305ef29d712c229e63905d9b4
 #appBar{
  background-color: #108f8f;
 }
 
+=======
+>>>>>>> added card background to profile info
 .Log {
  position: absolute;
  left: 1100px;
@@ -101,7 +104,27 @@ top: 217px;
 left: 730px;
 }
 
+<<<<<<< 6ea53490d68c8c6305ef29d712c229e63905d9b4
 >>>>>>> /*merge coflict*/
+=======
+.ProfileCard{
+  position: relative;
+  top: 350px;
+}
+
+#UserAvatar {
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+
+#userName {
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+
+>>>>>>> added card background to profile info
 #tabButtonHome {
   color: white;
 }
