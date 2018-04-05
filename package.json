@@ -43,7 +43,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "material-ui": "^1.0.0-beta.38",
-    "material-ui-rating": "^1.4.1",
+    "material-ui-rating": "^2.0.0-beta.2",
     "material-ui-search-bar": "^0.4.1",
     "mongoose": "^5.0.11",
     "npm-latest-version": "^1.0.2",
@@ -52,6 +52,7 @@
     "react-dom": "^16.2.0",
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^4.2.2",
-    "react-select": "^1.2.1"
+    "react-select": "^1.2.1",
+    "react-star-rating-component": "^1.4.1"
   }
 }

@@ -66,6 +66,12 @@ left: 730px;
   top: 350px;
 }
 
+.rate1 {
+  position: relative;
+  left: 90px;
+  top: -41px;
+}
+
 #UserAvatar {
   position: relative;
   top: 5px;
