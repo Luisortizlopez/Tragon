@@ -8,7 +8,7 @@ class LocationMenu extends React.Component {
     anchorEl: null,
   };
 
-  handleClick = (event) => {
+  handleClick = event => {
     this.setState({ anchorEl: event.currentTarget });
   };
 
@@ -37,6 +37,7 @@ class LocationMenu extends React.Component {
           transition={Fade}
         >
           <MenuItem onClick={this.handleClose}>Mexico, City</MenuItem>
+          <MenuItem onClick={this.handleClose}>Est. De Mexico</MenuItem>
           <MenuItem onClick={this.handleClose}>Colonia Tabacalera</MenuItem>
           <MenuItem onClick={this.handleClose}>Colonia del valle</MenuItem>
         </Menu>
