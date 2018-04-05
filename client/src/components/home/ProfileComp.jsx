@@ -11,6 +11,7 @@ const style = {
 }
 
 
+
 const ProfilePage = (props) => (
   <div>
     <Card className='ProfileCard' style={{backgroundColor: "#94b8b8"}}>

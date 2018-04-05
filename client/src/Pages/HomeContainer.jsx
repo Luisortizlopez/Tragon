@@ -3,15 +3,12 @@ import Select from 'react-select';
 import {Switch, Route, withRouter} from 'react-router-dom';
 import Results from './Results.jsx';
 import Home from './HomePage.jsx';
-<<<<<<< 29836e5576b6c6ccaad817f4a80254f69c03f20a
 import Profile from './Profile.jsx';
 
 
 
 
 
-=======
->>>>>>> /*Fixing mergin problems*/
 
 
 export default class HomeContainer extends Component {
