@@ -27,6 +27,12 @@ html {
   line-height: normal;
 }
 
+.BackGroundWindow {
+  background-color: #94b8b8;
+  position: relative;
+  top: 130px;
+}
+
 .Log {
  position: absolute;
  left: 1100px;
@@ -53,6 +59,23 @@ height: 25px;
 position: relative;
 top: 217px;
 left: 730px;
+}
+
+.ProfileCard{
+  position: relative;
+  top: 350px;
+}
+
+#UserAvatar {
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+
+#userName {
+  position: relative;
+  top: 30px;
+  left: 80px;
 }
 
 #tabButtonHome {
