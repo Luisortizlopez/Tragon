@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Select from 'react-select';
+<<<<<<< bfdcca0d35a106eb2ec0a62417b542811274a4a3
 <<<<<<< bde9c6751f6e7524e5ca2b8db8de0d4e19054083
 import Results from './Results.jsx';
 import Home from './HomePage.jsx'
@@ -32,6 +33,9 @@ import Profile from './Profile.jsx';
 =======
 >>>>>>> profile page in process
 
+=======
+import Home from './HomePage.jsx';
+>>>>>>> added card background to profile info
 
 export default class HomeContainer extends Component {
   state = {
