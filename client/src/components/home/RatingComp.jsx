@@ -1,4 +1,4 @@
-<<<<<<< d2a52bf42e31274e116831661402847cc503b2eb
+
 import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 
@@ -32,18 +32,6 @@ export default class RatingStars extends React.Component {
     );
   }
 }
-=======
-import { Rating } from 'material-ui-rating';
 
-const RatingStars = () => (
-  <div>
-       <Rating
-         value={3}
-         max={5}
-         onChange={(value) => console.log(`Rated with value ${value}`)}
-       />
-   </div>
-)
 
 export default RatingStars;
->>>>>>> working on Rating Component.

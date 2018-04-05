@@ -44,11 +44,7 @@
     "express": "^4.16.3",
     "firebase": "^4.12.1",
     "material-ui": "^1.0.0-beta.38",
-<<<<<<< d2a52bf42e31274e116831661402847cc503b2eb
     "material-ui-rating": "^2.0.0-beta.2",
-=======
-    "material-ui-rating": "^1.4.1",
->>>>>>> working on Rating Component.
     "material-ui-search-bar": "^0.4.1",
     "mongoose": "^5.0.11",
     "npm-latest-version": "^1.0.2",
