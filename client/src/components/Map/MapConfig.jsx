@@ -1,7 +1,18 @@
+<<<<<<< d2a52bf42e31274e116831661402847cc503b2eb
 simport React from "react"
 import {compose, withProps} from "recompose";
+=======
+import React from "react"
+<<<<<<< 504a607f2dc14918fb8033a4e7fade0e5701c1a6
+import {compose, withProps, withStateHandlers} from "recompose";
+>>>>>>> working on Rating Component.
 import {GOOGLE_API} from '../../../../env.js';
 import {withScriptjs, withGoogleMap, GoogleMap, Marker,Infowindow} from "react-google-maps";
+=======
+import {compose, withProps} from "recompose";
+import {GOOGLE_API} from '../../../../.env';
+import {withScriptjs, withGoogleMap, GoogleMap, Marker} from "react-google-maps";
+>>>>>>> working on Rating Component.
 
 const MyGoogleMap = compose(
   withProps({
