@@ -1,5 +1,9 @@
 html {
+<<<<<<< 179e9693d49e81a7083ff8f5db93fa9a2811ebbc
   background-image: url('./cOME.jpg');
+=======
+  background-image: url('./merced_food.jpg');
+>>>>>>> /*merge coflict*/
   height: auto;
   width: 100%;
   position: center center fixed;
@@ -64,6 +68,7 @@ height: 25px;
 .SearchButton {
   background-color: #1752c9;
 position: relative;
+<<<<<<< 179e9693d49e81a7083ff8f5db93fa9a2811ebbc
 top: 160px;
 left: 730px;
 }
@@ -91,6 +96,12 @@ left: 730px;
   left: 80px;
 }
 
+=======
+top: 217px;
+left: 730px;
+}
+
+>>>>>>> /*merge coflict*/
 #tabButtonHome {
   color: white;
 }

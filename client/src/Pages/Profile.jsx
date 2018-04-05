@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< 179e9693d49e81a7083ff8f5db93fa9a2811ebbc
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
 <<<<<<< a6e856c121823aa7034f8c78d5678b8ff04d165e
@@ -31,6 +32,9 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 =======
 <<<<<<< de44d9351c0e984eee47cfd11d52479c46a0a393
 import ProfilePage from '../components/home/ProfileComp.jsx';
+=======
+import AvatarVender from '../components/profile/AvatarVender.jsx';
+>>>>>>> /*merge coflict*/
 
 <<<<<<< 8afdbb4ac7ff8ab9c4e6fa9d7efd7fcef21f1c89
 =======
