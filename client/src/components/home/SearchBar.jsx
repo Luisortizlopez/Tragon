@@ -37,7 +37,7 @@ export default class SearchBar extends Component {
         type="submit"
         className="SearchButton"
         variant="raised"
-        color="primary"
+        style={{ backgroundColor: "#1752c9", color: "white" }}
         onClick={this.newSearch}>
         Search
       </Button>
