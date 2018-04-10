@@ -17,11 +17,22 @@ const AuthenticatedRoute = ({component: Component, authenticated, ...rest}) => {
   )
 }
 
-export default class App extends Component {
-  state = {
-    isAuthenticated: false,
-    user: undefined
-  }
+const App = ({history}) => (
+  <BrowserRouter>
+      <div>
+        <header>
+        <HeaderBar />
+        </header>
+        <main id="main-content">
+        <Switch>
+          <Route path="/user" component={Profile} />
+          <Route path="/vendor" component={AvatarVender} />
+          <Route path="/" component={HomeContainer} />
+        </Switch>
+        </main>
+    </div>
+  </BrowserRouter>
+)
 
   componentDidMount(){
     this.removeAuthListener = firebaseAuth().onAuthStateChanged((user) => {

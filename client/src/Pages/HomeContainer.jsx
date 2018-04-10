@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Select from 'react-select';
-<<<<<<< 6fb62a3175c63f0088b2fa788b8f58051283a563
 import {Switch, Route, withRouter} from 'react-router-dom';
 import Results from './Results.jsx';
 import Home from './HomePage.jsx';
@@ -9,9 +8,6 @@ import Profile from './Profile.jsx';
 
 
 
-=======
-import Home from './HomePage.jsx';
->>>>>>> added card background to profile info
 
 export default class HomeContainer extends Component {
   state = {
@@ -47,6 +43,10 @@ export default class HomeContainer extends Component {
         ) : (
           <Home submitSearch={this.submitSearch} />
         )}
+        <Switch>
+          <Route exact path="/" render={(props) => <Home submitSearch={this.submitSearch} /> } />
+          <Route path='/profile' components={Profile} />
+        </Switch>
       </div>
     );
   }
