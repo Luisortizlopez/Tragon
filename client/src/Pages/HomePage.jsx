@@ -15,7 +15,7 @@ const Home = (props) => (
   <div>
     <SearchBar submitSearch={props.submitSearch} />
     <LocationMenu />
-    <ProfilePage />
+
 
   </div>
 )
