@@ -20,6 +20,7 @@ import React from 'react';
 >>>>>>> trying to render avatar in profile page
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+<<<<<<< 7d0683e759d0bd2351830fc732cb8dbd5d062dcb
 <<<<<<< a6e856c121823aa7034f8c78d5678b8ff04d165e
 <<<<<<< 741a197e6d2e30d27a3a7ccac48777f1d316af35
 <<<<<<< d2b73761102f658885e1a4725f8999ffd7ef3b80
@@ -161,6 +162,8 @@ export default class Profile extends React.Component {
 =======
 >>>>>>> working on profile
 >>>>>>> working on profile
+=======
+>>>>>>> styling landing page
  class Profile extends React.Component {
 >>>>>>> profile page in process
   state = {
