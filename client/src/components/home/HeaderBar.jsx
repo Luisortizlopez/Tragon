@@ -21,8 +21,12 @@ import Toolbar from 'material-ui/Toolbar';
 =======
             <Link to="/search"><Button id='AvatarVender' label="results" color="inherit">Results</Button></Link>
             <Link to="/add"><Button id='AddVendor' color="inherit">Add Vendor</Button></Link>
+<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
             <Link to="/profile"><Button id='profile' color="inherit">Profile</Button></Link>
 >>>>>>> /*merge conflicts*/
+=======
+            <Link to="/user"><Button id='profile' color="inherit">Profile</Button></Link>
+>>>>>>> styling profile component
             <div className='Log'><Button id='Login' label="Userlogin" color="inherit">Log in</Button></div>
           </Toolbar>
       </AppBar>

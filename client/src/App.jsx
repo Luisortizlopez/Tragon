@@ -34,6 +34,7 @@ const App = ({history}) => (
   </BrowserRouter>
 )
 
+<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
   componentDidMount(){
     this.removeAuthListener = firebaseAuth().onAuthStateChanged((user) => {
       if (user) {
@@ -49,6 +50,24 @@ const App = ({history}) => (
       }
     });
   }
+=======
+const App = ({history}) => (
+  <BrowserRouter>
+      <div>
+        <header>
+        <HeaderBar />
+        </header>
+        <main id="main-content">
+        <Switch>
+          <Route path="/user" component={Profile} />
+          <Route path="/vendor" component={AvatarVender} />
+          <Route path="/" component={HomeContainer} />
+        </Switch>
+        </main>
+    </div>
+  </BrowserRouter>
+)
+>>>>>>> styling profile component
 
   logout = (e) => {
     e.preventDefault();
