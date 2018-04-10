@@ -170,7 +170,10 @@ export default class Profile extends React.Component {
     person: []
   }
 
+<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
 
+=======
+>>>>>>> styling profile component
 
   render() {
 

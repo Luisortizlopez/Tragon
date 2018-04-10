@@ -79,6 +79,7 @@ const style = {
 }
 
 
+<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
 <<<<<<< ca4a54e34c3a9dbfe2385fe78cd8f46bdd1e52ba
 <<<<<<< 3171e201f24254018385a3a5674c5a31158a834d
 <<<<<<< ababadb2bd139d88486de3ebbcc768e1297ed142
@@ -119,11 +120,14 @@ const ProfilePage = (props) => (
 >>>>>>> added card background to profile info
 =======
 >>>>>>> working on Rating Component.
+=======
+
+>>>>>>> styling profile component
 const ProfilePage = (props) => (
   <div>
-    <Card className='ProfileCard' style={{backgroundColor: "#94b8b8"}}>
+    <Card className='ProfileCard' style={{backgroundColor: "#E6E6FA"}}>
     <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/TragonComiendo.jpg' className='Picture' />
-    <UserName id='userName' />
+    <UserName id='UsersName' />
     <RatingStars />
    </Card>
  </div> )

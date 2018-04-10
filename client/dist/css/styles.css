@@ -46,7 +46,7 @@ html {
 =======
 >>>>>>> styling landing page
 #appBar{
- background-color: #108f8f;
+ background-color: #10108f;
 }
 
 <<<<<<< 7d0683e759d0bd2351830fc732cb8dbd5d062dcb
@@ -118,12 +118,18 @@ top: 160px;
 left: 730px;
 }
 
+<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
 <<<<<<< 6ea53490d68c8c6305ef29d712c229e63905d9b4
 >>>>>>> /*merge coflict*/
 =======
 .ProfileCard{
+=======
+.ProfileCard {
+  width: 75%;
+>>>>>>> styling profile component
   position: relative;
-  top: 350px;
+  top: -75px;
+  left: 12.5%;
 }
 
 .rate1 {
@@ -134,17 +140,21 @@ left: 730px;
 
 #UserAvatar {
   position: relative;
-  top: 5px;
-  left: 20px;
+  top: 35px;
+  left: 35px;
 }
 
-#userName {
+#UsersName {
   position: relative;
-  top: 30px;
+  top: 15px;
   left: 80px;
 }
 
+<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
 >>>>>>> added card background to profile info
+=======
+
+>>>>>>> styling profile component
 #tabButtonHome {
   color: white;
 }

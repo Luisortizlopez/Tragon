@@ -44,15 +44,7 @@
     "express": "^4.16.3",
     "firebase": "^4.12.1",
     "material-ui": "^1.0.0-beta.38",
-<<<<<<< e3d13b34cbdec097fd126023253de7cc2276c4fd
-<<<<<<< ca4a54e34c3a9dbfe2385fe78cd8f46bdd1e52ba
     "material-ui-rating": "^2.0.0-beta.2",
-=======
-    "material-ui-rating": "^1.4.1",
->>>>>>> working on Rating Component.
-=======
-    "material-ui-rating": "^2.0.0-beta.2",
->>>>>>> installed react-star-rating-component npm pack for rating component
     "material-ui-search-bar": "^0.4.1",
     "mongoose": "^5.0.11",
     "npm-latest-version": "^1.0.2",
