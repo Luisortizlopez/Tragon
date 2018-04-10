@@ -11,11 +11,12 @@ const style = {
 }
 
 
+
 const ProfilePage = (props) => (
   <div>
-    <Card className='ProfileCard' style={{backgroundColor: "#94b8b8"}}>
+    <Card className='ProfileCard' style={{backgroundColor: "#E6E6FA"}}>
     <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/TragonComiendo.jpg' className='Picture' />
-    <UserName id='userName' />
+    <UserName id='UsersName' />
     <RatingStars />
    </Card>
  </div> )

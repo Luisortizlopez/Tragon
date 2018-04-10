@@ -16,8 +16,8 @@ const App = ({history}) => (
         </header>
         <main id="main-content">
         <Switch>
-          <Route path="user" component={Profile} />
-          <Route path="vendor" component={AvatarVender} />
+          <Route path="/user" component={Profile} />
+          <Route path="/vendor" component={AvatarVender} />
           <Route path="/" component={HomeContainer} />
         </Switch>
         </main>
