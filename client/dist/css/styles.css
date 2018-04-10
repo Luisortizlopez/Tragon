@@ -1,5 +1,5 @@
 html {
-  background-image: url('./merced_food.jpg');
+  background-image: url('./cOME.jpg');
   height: auto;
   width: 100%;
   position: center center fixed;
@@ -33,6 +33,10 @@ html {
   top: 130px;
 }
 
+#appBar{
+ background-color: #108f8f;
+}
+
 .Log {
  position: absolute;
  left: 1100px;
@@ -40,24 +44,27 @@ html {
 
 .SearchBar {
 position: relative;
-top: 250px;
+top: 190px;
 left: 200px;
 }
 
 .Menu {
 position: relative;
-top: 181.3px;
+top: 125px;
 left: 835px;
 }
 
 .FieldInput {
+  border-radius: 5px;
+  border-width: 0px;
 width: 520px;
 height: 25px;
 }
 
 .SearchButton {
+  background-color: #1752c9;
 position: relative;
-top: 217px;
+top: 160px;
 left: 730px;
 }
 
