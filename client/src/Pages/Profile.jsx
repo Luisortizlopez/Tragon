@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfilePage from '../components/home/ProfileComp.jsx';
 
+<<<<<<< a6e856c121823aa7034f8c78d5678b8ff04d165e
 <<<<<<< 741a197e6d2e30d27a3a7ccac48777f1d316af35
 <<<<<<< d2b73761102f658885e1a4725f8999ffd7ef3b80
 <<<<<<< 84cb8ec61b57a20f14756b83d6abe8f36c0f4f8e
@@ -62,6 +63,8 @@ import ProfilePage from '../components/home/ProfileComp.jsx';
 
 =======
 >>>>>>> profile page in process
+=======
+>>>>>>> styling landing page
  class Profile extends React.Component {
 >>>>>>> /*Fixing mergin problems*/
   state = {
