@@ -1,13 +1,6 @@
 html {
-<<<<<<< 7d0683e759d0bd2351830fc732cb8dbd5d062dcb
-<<<<<<< 179e9693d49e81a7083ff8f5db93fa9a2811ebbc
+
   background-image: url('./cOME.jpg');
-=======
-  background-image: url('./merced_food.jpg');
->>>>>>> /*merge coflict*/
-=======
-  background-image: url('./cOME.jpg');
->>>>>>> styling landing page
   height: auto;
   width: 100%;
   position: center center fixed;
@@ -41,19 +34,12 @@ html {
   top: 130px;
 }
 
-<<<<<<< 7d0683e759d0bd2351830fc732cb8dbd5d062dcb
-<<<<<<< 6ea53490d68c8c6305ef29d712c229e63905d9b4
-=======
->>>>>>> styling landing page
+
 #appBar{
  background-color: #10108f;
 }
 
-<<<<<<< 7d0683e759d0bd2351830fc732cb8dbd5d062dcb
-=======
->>>>>>> added card background to profile info
-=======
->>>>>>> styling landing page
+
 .Log {
  position: absolute;
  left: 1100px;
@@ -81,8 +67,6 @@ height: 25px;
 .SearchButton {
   background-color: #1752c9;
 position: relative;
-<<<<<<< 7d0683e759d0bd2351830fc732cb8dbd5d062dcb
-<<<<<<< 179e9693d49e81a7083ff8f5db93fa9a2811ebbc
 top: 160px;
 left: 730px;
 }
@@ -99,37 +83,20 @@ left: 730px;
 }
 
 #UserAvatar {
+  border-width: 22px;
+  border-color: #108f8f;
   position: relative;
-  top: 5px;
-  left: 20px;
+  top: -25px;
+  left: 38%;
 }
 
-#userName {
-  position: relative;
-  top: 30px;
-  left: 80px;
-}
 
-=======
-top: 217px;
-=======
-top: 160px;
->>>>>>> styling landing page
-left: 730px;
-}
-
-<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
-<<<<<<< 6ea53490d68c8c6305ef29d712c229e63905d9b4
->>>>>>> /*merge coflict*/
-=======
-.ProfileCard{
-=======
 .ProfileCard {
-  width: 75%;
->>>>>>> styling profile component
+  width: 60%;
+  height: 300px;
   position: relative;
   top: -75px;
-  left: 12.5%;
+  left: 21%;
 }
 
 .rate1 {
@@ -138,23 +105,26 @@ left: 730px;
   top: -41px;
 }
 
-#UserAvatar {
+.review {
+  width: 60%;
   position: relative;
-  top: 35px;
-  left: 35px;
+  left: 21%;
+  top: -20px;
 }
 
-#UsersName {
-  position: relative;
-  top: 15px;
-  left: 80px;
-}
+ #userName {
+   width: 50%;
+border-bottom: solid;
+border-width: 2px;
+text-align: center;
+color: #004BC2;
+position: relative;
+top: 220px;
+left: 24%;
+font-size: 24px;
+font-weight: lighter;
+ }
 
-<<<<<<< 3f0eac23e4dc319d6abfaa654a2b57676ab8edd6
->>>>>>> added card background to profile info
-=======
-
->>>>>>> styling profile component
 #tabButtonHome {
   color: white;
 }
