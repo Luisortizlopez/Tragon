@@ -16,17 +16,6 @@ export default class HeaderBar extends Component {
         <Button id='logout' label='log-out' color='inherit' onClick={this.props.logout}>Logout</Button>
       </Toolbar>
 
-<<<<<<< HEAD
-    const unAuthBar =
-      <Toolbar>
-        <Link to="/"><Button id='tabButtonHome' color="inherit">Home</Button></Link>
-        <Link to="login"><div className='Log'><Button id='Log-in' label="log-in" color="inherit">Login</Button></div></Link>
-      </Toolbar>
-
-    return (
-      <AppBar id='appBar'>
-        {this.props.authenticated ? authedBar : unAuthBar}
-=======
 
   const HeaderBar = (props) => (
       <AppBar id='appBar'>
@@ -37,7 +26,6 @@ export default class HeaderBar extends Component {
             <Link to="/user"><Button id='profile' color="inherit">Profile</Button></Link>
             <div className='Log'><Button id='Login' label="Userlogin" color="inherit">Log in</Button></div>
           </Toolbar>
->>>>>>> 5561a54c4f29d58627a0537635db49fe1e705319
       </AppBar>
     )
   }

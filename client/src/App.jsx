@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-<<<<<<< HEAD
 import {firebaseAuth} from './components/auth/client.js'
-=======
->>>>>>> 5561a54c4f29d58627a0537635db49fe1e705319
 import HeaderBar from './components/home/HeaderBar.jsx';
 import Login from './components/auth/Login.jsx'
 import HomeContainer from './Pages/HomeContainer.jsx';
@@ -27,7 +24,6 @@ export default class App extends Component {
     });
   }
 
-<<<<<<< HEAD
   logout = (e) => {
     e.preventDefault();
     firebaseAuth().signOut().then(() =>{
@@ -37,24 +33,6 @@ export default class App extends Component {
       })
     });
   }
-=======
-const App = ({history}) => (
-  <BrowserRouter>
-      <div>
-        <header>
-        <HeaderBar />
-        </header>
-        <main id="main-content">
-        <Switch>
-          <Route path="/user" component={Profile} />
-          <Route path="/vendor" component={AvatarVender} />
-          <Route path="/" component={HomeContainer} />
-        </Switch>
-        </main>
-    </div>
-  </BrowserRouter>
-)
->>>>>>> 5561a54c4f29d58627a0537635db49fe1e705319
 
   render() {
     return (
