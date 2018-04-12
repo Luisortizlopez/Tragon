@@ -1,5 +1,4 @@
 html {
-
   background-image: url('./cOME.jpg');
   height: auto;
   width: 100%;
@@ -34,11 +33,9 @@ html {
   top: 130px;
 }
 
-
 #appBar{
  background-color: #10108f;
 }
-
 
 .Log {
  position: absolute;

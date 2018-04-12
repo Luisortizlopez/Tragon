@@ -10,6 +10,8 @@ const Home = (props) => (
   <div>
     <SearchBar submitSearch={props.submitSearch} />
     <LocationMenu />
+
+
   </div>
 )
 
