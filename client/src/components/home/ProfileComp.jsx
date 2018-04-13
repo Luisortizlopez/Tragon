@@ -1,13 +1,17 @@
 import React from 'react';
 import Avatar from 'material-ui/Avatar';
 import UserName from './UserName.jsx';
-import Card from 'material-ui/Card';
-
+import Card, { CardContent, CardMedia } from 'material-ui/Card';
+import Favorites from './Favorites.jsx'
 
 const style = {
     width: 160,
     height: 160,
-    borderWidth: "12px"
+}
+
+const styles = {
+   width: 151,
+   height: 151,
 }
 
 
@@ -20,22 +24,8 @@ const ProfilePage = (props) => (
    </Card>
  </div>
  <div>
-      <Paper className="review" elevation={4}>
-        <Typography variant="headline" component="h3">
-          This is a sheet of paper.
-        </Typography>
-      </Paper>
-      <Paper className="review" elevation={4}>
-        <Typography variant="headline" component="h3">
-          This is a sheet of paper.
-        </Typography>
-      </Paper>
-      <Paper className="review" elevation={4}>
-        <Typography variant="headline" component="h3">
-          This is a sheet of paper.
-        </Typography>
-      </Paper>
-    </div>
+   <Favorites />
+  </div>
 </div>
 )
 

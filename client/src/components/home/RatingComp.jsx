@@ -2,8 +2,7 @@
 import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 
-
-export default class RatingStars extends React.Component {
+class RatingStars extends React.Component {
   constructor() {
     super();
 
