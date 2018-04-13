@@ -13,8 +13,8 @@ const style = {
 
 const ProfilePage = (props) => (
   <div>
-    <Card className='ProfileCard' style={{backgroundColor: "#94b8b8"}}>
-    <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/TragonComiendo.jpg' className='Picture' />
+    <Card className='ProfileCard' style={{backgroundColor: "rgba (252,247,255, 0.7)"}}>
+    <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/profilepic.jpg' className='Picture' />
     <UserName id='userName' />
    </Card>
  </div>

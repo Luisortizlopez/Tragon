@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
-import {firebaseAuth} from './components/auth/client.js';
+import {firebaseAuth} from './components/auth/client.js'
 import HeaderBar from './components/home/HeaderBar.jsx';
-import Login from './components/auth/Login.jsx';
+import Login from './components/auth/Login.jsx'
 import HomeContainer from './Pages/HomeContainer.jsx';
 import Profile from './Pages/Profile.jsx';
 import AvatarVender from './components/profile/AvatarVender.jsx';
@@ -16,24 +16,11 @@ const AuthenticatedRoute = ({component: Component, authenticated, ...rest}) => {
           : <Redirect to={{pathname: '/login'}} /> } />
   )
 }
-
-const App = ({history}) => (
-  <BrowserRouter>
-      <div>
-        <header>
-        <HeaderBar />
-        </header>
-        <main id="main-content">
-        <Switch>
-          <Route path="/user" component={Profile} />
-          <Route path="/vendor" component={AvatarVender} />
-          <Route path="/" component={HomeContainer} />
-        </Switch>
-        </main>
-    </div>
-  </BrowserRouter>
-)
-
+export default class App extends Component {
+  state = {
+    isAuthenticated: false,
+    user: undefined
+  }
   componentDidMount(){
     this.removeAuthListener = firebaseAuth().onAuthStateChanged((user) => {
       if (user) {
@@ -49,7 +36,6 @@ const App = ({history}) => (
       }
     });
   }
-
   logout = (e) => {
     e.preventDefault();
     firebaseAuth().signOut().then(() => {
@@ -59,7 +45,6 @@ const App = ({history}) => (
       })
     });
   }
-
   render() {
     return (
       <BrowserRouter>

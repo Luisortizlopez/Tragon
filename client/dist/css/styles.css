@@ -68,23 +68,9 @@ top: 160px;
 left: 730px;
 }
 
-.ProfileCard {
-  width: 75%;
+.ProfileCard{
   position: relative;
-  top: -75px;
-  left: 12.5%;
-}
-
-.rate1 {
-  position: relative;
-  left: 90px;
-  top: -41px;
-}
-
-.rate1 {
-  position: relative;
-  left: 90px;
-  top: -41px;
+  top: 350px;
 }
 
 .rate1 {
@@ -94,17 +80,47 @@ left: 730px;
 }
 
 #UserAvatar {
+  border-width: 22px;
+  border-color: #108f8f;
   position: relative;
-  top: 35px;
-  left: 35px;
+  top: 20px;
+  left: 38%;
 }
 
-#UsersName {
+
+.ProfileCard {
+  width: 60%;
+  height: 300px;
   position: relative;
-  top: 15px;
-  left: 80px;
+  top: -75px;
+  left: 21%;
 }
 
+.rate1 {
+  position: relative;
+  left: 90px;
+  top: -41px;
+}
+
+.review {
+  width: 60%;
+  position: relative;
+  left: 21%;
+  top: -20px;
+}
+
+ #userName {
+   width: 50%;
+border-bottom: solid;
+border-width: 2px;
+text-align: center;
+color: #004BC2;
+position: relative;
+top: 40px;
+left: 24%;
+font-size: 24px;
+font-weight: lighter;
+ }
 
 #tabButtonHome {
   color: white;
