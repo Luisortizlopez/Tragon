@@ -12,7 +12,6 @@ export default class HomeContainer extends Component {
   state = {
     vendors: null
   }
-
   submitSearch = (query) => {
     axios.get('/search', {
       params: {
@@ -29,11 +28,9 @@ export default class HomeContainer extends Component {
     })
     this.props.history.push(`/search?query=${query}`)
   }
-
   shouldComponentUpdate(nextProps, nextState) {
     return this.state.vendors !== nextState.vendors
   }
-
   render() {
     return (
       <div>

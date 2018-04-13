@@ -7,18 +7,37 @@ import Card from 'material-ui/Card';
 const style = {
     width: 160,
     height: 160,
+    borderWidth: "12px"
 }
-
 
 
 const ProfilePage = (props) => (
   <div>
-    <Card className='ProfileCard' style={{backgroundColor: "rgba (252,247,255, 0.7)"}}>
+  <div>
+    <Card className='ProfileCard' style={{backgroundColor: "rgba(253,247,255, 0.8)"}}>
+    <UserName  />
     <Avatar id='UserAvatar' style={style} alt='Avatar' src='../css/profilepic.jpg' className='Picture' />
-    <UserName id='userName' />
    </Card>
  </div>
-);
+ <div>
+      <Paper className="review" elevation={4}>
+        <Typography variant="headline" component="h3">
+          This is a sheet of paper.
+        </Typography>
+      </Paper>
+      <Paper className="review" elevation={4}>
+        <Typography variant="headline" component="h3">
+          This is a sheet of paper.
+        </Typography>
+      </Paper>
+      <Paper className="review" elevation={4}>
+        <Typography variant="headline" component="h3">
+          This is a sheet of paper.
+        </Typography>
+      </Paper>
+    </div>
+</div>
+)
 
 
 export default ProfilePage;
